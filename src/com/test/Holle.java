@@ -19,7 +19,7 @@ public class Holle {
 		User user = new User();
 		
 		user.setId(1);
-		user.setUsername("朱");
+		user.setUsername("修改");
 		user.setPassword("123456");
 		user.setAge(20);
 		
