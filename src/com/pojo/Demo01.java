@@ -21,7 +21,7 @@ public class Demo01 {
 		list.add(user);
 		
 		demo.setId(1);
-		demo.setName("zhu");
+		demo.setName("yu666");
 		demo.setAge(20);
 		demo.setLists(list);
 		
