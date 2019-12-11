@@ -1,31 +1,15 @@
 package com.test;
 
+import com.pojo.Demo01;
 import com.pojo.User;
 
 public class Holle {
 
 	public static void main(String[] args) {
 		
-		System.out.println("holle");
+		Demo01 demo = new Demo01();
 		
-		String test = method1();
-		
-		System.out.println(test);
-		
-	}
-	
-	public static String method1() {
-		
-		User user = new User();
-		
-		user.setId(1);
-		user.setUsername("修改");
-		user.setPassword("123456");
-		user.setAge(20);
-		
-		String test = user.toString();
-		
-		return test;
+		System.out.println(demo.method01());
 		
 	}
 
